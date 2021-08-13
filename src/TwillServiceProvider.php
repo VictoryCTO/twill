@@ -498,9 +498,9 @@ class TwillServiceProvider extends ServiceProvider
 
         if (blank((new Google2FAQRCode())->getQrCodeService()))
         {
-            throw new Exception(
-                "Twill ERROR: As you have 2FA enabled, you also need to install a QRCode service package, please check https://github.com/antonioribeiro/google2fa-qrcode#built-in-qrcode-rendering-services"
-            );
+//            throw new Exception(
+//                "Twill ERROR: As you have 2FA enabled, you also need to install a QRCode service package, please check https://github.com/antonioribeiro/google2fa-qrcode#built-in-qrcode-rendering-services"
+//            );
         }
     }
 }
