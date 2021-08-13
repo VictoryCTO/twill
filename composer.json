@@ -1,10 +1,9 @@
 {
-  "name": "area17/twill",
+  "name": "victorycto/twill",
   "type": "library",
   "license": "Apache-2.0",
-  "description": "Twill is an open source CMS toolkit for Laravel that helps developers rapidly create a custom admin console that is intuitive, powerful and flexible.",
+  "description": "Twill is an open source CMS toolkit for Laravel that helps developers rapidly create a custom admin console that is intuitive, powerful and flexible.  This fork has been created to address specific needs of the Digital Nexus Project",
   "keywords": [
-    "A17",
     "twill",
     "laravel",
     "cms"
@@ -12,16 +11,11 @@
   "homepage": "https://twill.io",
   "authors": [
     {
-      "name": "AREA 17",
-      "email": "hello@twill.io",
-      "homepage": "https://area17.com"
+      "name": "VictoryCTO",
+      "email": "info@victorycto.com",
+      "homepage": "https://victorycto.com"
     }
   ],
-  "support": {
-    "issues": "https://github.com/ifox/twill/issues/",
-    "docs": "https://twill.io/docs",
-    "chat": "https://discord.link/twill"
-  },
   "require": {
     "php": "^7.1|^8.0",
     "ext-json": "*",
@@ -53,9 +47,9 @@
   },
   "autoload": {
     "psr-4": {
-      "A17\\Twill\\": "src/",
-      "A17\\Twill\\Tests\\Unit\\": "tests/unit",
-      "A17\\Twill\\Tests\\Integration\\": "tests/integration",
+      "Victory\\Twill\\": "src/",
+      "Victory\\Twill\\Tests\\Unit\\": "tests/unit",
+      "Victory\\Twill\\Tests\\Integration\\": "tests/integration",
       "App\\": "vendor/orchestra/testbench-core/laravel/app"
     }
   },
